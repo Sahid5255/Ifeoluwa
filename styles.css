@@ -219,6 +219,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  align-items:center;
 }
 
 /* ---------- Offer / feature box ---------- */
@@ -435,7 +436,13 @@ footer.site-footer {
   flex-wrap: wrap;
   gap: 20px;
 }
-
+.footer-top .ife{
+  color:#fff;
+}
+.footer-top p{
+  color:#8bd17c; 
+  margin-top:6px;
+}
 .footer-links {
   list-style: none;
   display: flex;
